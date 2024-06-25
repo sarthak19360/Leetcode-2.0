@@ -1,3 +1,9 @@
+import Leetcode from "../components/Leetcode";
+
 export default function Home() {
-  return <div className="bg-red-200">LeetCode Website</div>;
+  return (
+    <>
+      <Leetcode />
+    </>
+  );
 }
