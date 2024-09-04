@@ -1,9 +1,9 @@
-import Homepage from "../components/Homepage";
+import Mainpage from "../../components/Mainpage";
 
 const page = () => {
   return (
     <div className="bg-[#202225] text-white flex">
-      <Homepage />
+      <Mainpage />
     </div>
   );
 };
