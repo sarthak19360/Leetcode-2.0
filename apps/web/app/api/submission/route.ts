@@ -10,8 +10,13 @@ export async function POST(req: NextRequest) {
   const submission = await req.json();
   console.log("Received Submission: ", submission);
 
-  return NextResponse.json({
-    msg: "Submission received ",
-    submission,
-  });
+  return NextResponse.json(
+    {
+      msg: "Submission received ",
+      submission,
+    },
+    {
+      status: 200,
+    }
+  );
 }
