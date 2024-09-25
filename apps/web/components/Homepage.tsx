@@ -13,20 +13,18 @@ const Homepage = () => {
         </div>
         <div>
           <div className="text-xl font-bold flex my-4">
-            <div className="mx-3">✔️</div>Organized study plans and roadmaps
-            (Blind 75, Neetcode 150).
+            <div className="mx-3">✔️</div>Organized DSA problems to learn
+            problem solving.
           </div>
           <div className="text-xl font-bold flex my-4">
-            <div className="mx-3">✔️</div>Organized study plans and roadmaps
-            (Blind 75, Neetcode 150).
+            <div className="mx-3">✔️</div>A nice looking UI for better UX.
           </div>
           <div className="text-xl font-bold flex my-4">
-            <div className="mx-3">✔️</div>Organized study plans and roadmaps
-            (Blind 75, Neetcode 150).
+            <div className="mx-3">✔️</div>Multiple testcases for a single
+            problem.
           </div>
           <div className="text-xl font-bold flex my-4">
-            <div className="mx-3">✔️</div>Organized study plans and roadmaps
-            (Blind 75, Neetcode 150).
+            <div className="mx-3">✔️</div>Sign in to save your progress.
           </div>
         </div>
         <div className="flex justify-center text-xl font-bold italic">
